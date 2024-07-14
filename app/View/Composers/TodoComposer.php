@@ -19,16 +19,6 @@ class TodoComposer
      */
     public function compose(View $view): void
     {
-        $one = new Todo;
-        $two = new Todo;
 
-        $one->id = 1;
-        $array = array (
-            "one" => $one,
-            "two" => $two
-        );
-
-        Log::debug("I'm here");
-        $view->with('todos', $array);
     }
 }
