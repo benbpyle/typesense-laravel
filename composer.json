@@ -6,9 +6,15 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "aws/aws-sdk-php": "^3.321",
+        "baopham/dynamodb": "^6.5",
         "laravel/framework": "^11.9",
         "laravel/scout": "^10.10",
         "laravel/tinker": "^2.9",
+        "php-http/curl-client": "^2.3",
+        "php-http/httplug": "*",
+        "ramsey/uuid": "^4.7",
+        "symfony/http-client": "^7.1",
         "typesense/typesense-php": "^4.9"
     },
     "require-dev": {

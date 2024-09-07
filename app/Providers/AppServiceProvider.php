@@ -16,7 +16,10 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
-
+    public $singletons = [
+        TypesenseClient\TypesenseClient::class => PingdomDowntimeNotifier::class,
+        ServerProvider::class => ServerToolsProvider::class,
+    ];
     /**
      * Bootstrap any application services.
      */

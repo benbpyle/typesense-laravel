@@ -30,7 +30,7 @@
 
                     @foreach ($todos as $todo)
                         <tr>
-                            <td> {{ $todo->id }} </td>
+                            <td> {{ $todo->uuid }} </td>
                             <td> {{ $todo->name }} </td>
                             <td> {{ $todo->description }} </td>
                             <td> {{ $todo->created_at }} </td>
