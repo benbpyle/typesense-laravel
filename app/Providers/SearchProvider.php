@@ -16,10 +16,10 @@ class SearchProvider extends ServiceProvider
         $this->app->singleton(Client::class, function ($app) {
             $client = new Client(
                 [
-                    'api_key' => '8LoupEdVCIx8fYIxGJIGykvn7PxgqOz8',
+                    'api_key' => '<API Key>',
                     'nodes' => [
                         [
-                            'host' => '4bjulqyz0icdxpkfp-1.a1.typesense.net',
+                            'host' => '<Typesense Host>',
                             'port' => '443',
                             'protocol' => 'https',
                         ],
